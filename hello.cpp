@@ -2,8 +2,14 @@
 using namespace std;
 
 int main () {
+int name;
+int name1;
   
-  cout << "Hello I like Turtles\n\n";
+  cout << "enter your name";
+	cin >> name;
+
+
+cout << "hello "<<  name <<" i'm Megan";
 
   return 0;
 }
